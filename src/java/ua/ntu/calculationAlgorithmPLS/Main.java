@@ -15,25 +15,12 @@ public class Main {
         double yawAngel = courseAngularDeviatio + courseParameters[2] + runwayCourse;
         double pitchAngle = glideAngularDeviatio + glideParameters[3] + glideInstaliationAngle;
 
-        System.out.println(glideParameters[0]*180/Math.PI);
-        System.out.println(glideParameters[1]*180/Math.PI);
-        System.out.println(glideParameters[2]*180/Math.PI);
-        System.out.println(glideParameters[3]*180/Math.PI);
-        System.out.println(glideParameters[4]*180/Math.PI);
-        System.out.println(courseParameters[0]*180/Math.PI);
-        System.out.println(courseParameters[1]*180/Math.PI);
-        System.out.println(courseParameters[2]*180/Math.PI);
-        System.out.println(courseParameters[3]*180/Math.PI);
-        System.out.println(courseParameters[4]*180/Math.PI);
-
-
-
-        System.out.println(roolAngel1*180/Math.PI);
-        System.out.println(roolAngel2*180/Math.PI);
-        System.out.println(glideAngularDeviatio*180/Math.PI);
-        System.out.println(courseAngularDeviatio*180/Math.PI);
-        System.out.println(yawAngel*180/Math.PI);
-        System.out.println(pitchAngle*180/Math.PI);
+        System.out.println("кут крену " + roolAngel1*180/Math.PI);
+        System.out.println("кут крену " + roolAngel2*180/Math.PI);
+        System.out.println("кут відхилення від лінії глісади в глісадному каналі " + glideAngularDeviatio*180/Math.PI);
+        System.out.println("кут відхилення від лінії глісади в курсовому каналі " + courseAngularDeviatio*180/Math.PI);
+        System.out.println("кут рискання " + yawAngel*180/Math.PI);
+        System.out.println("кут тангажу " + pitchAngle*180/Math.PI);
 
 
 
