@@ -21,8 +21,5 @@ public class Main {
         System.out.println("кут відхилення від лінії глісади в курсовому каналі " + courseAngularDeviatio*180/Math.PI);
         System.out.println("кут рискання " + yawAngel*180/Math.PI);
         System.out.println("кут тангажу " + pitchAngle*180/Math.PI);
-
-
-
     }
 }
